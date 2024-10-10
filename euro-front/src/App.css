@@ -76,3 +76,8 @@
   background-position: center;
 }
 
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
