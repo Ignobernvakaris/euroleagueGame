@@ -20,6 +20,9 @@ const Header = () => {
           <li className="nav-item">
             <Link className="nav-link" to="/predictionPage">Dalyvių spėjimai</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/rulesPage">Taisyklės</Link>
+          </li>
         </ul>
       </div>
     </nav>

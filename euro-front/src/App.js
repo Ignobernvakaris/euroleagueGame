@@ -8,7 +8,7 @@ import LoginPage from "./pages/LoginPage";
 import PredictionPage from "./pages/PredictionPage";
 import { Secret } from "./auth/Secret";
 import PredictionTable from "./pages/PredictionTable";
-
+import RulesPage from "./pages/RulesPage";
 function App() {
   return (
     <AuthProvider>
@@ -44,6 +44,14 @@ function App() {
             <ProtectedRoute>
               <PredictionTable />
             </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/rulesPage"
+          element={
+            <RulesPage>
+              <RulesPage />
+            </RulesPage>
           }
         />
       </Routes>
